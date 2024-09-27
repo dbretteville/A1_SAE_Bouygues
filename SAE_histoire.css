@@ -5,18 +5,15 @@
     box-sizing: border-box;
 }
 
-body {
-    display: grid;
-    grid-template-columns: 200px 1fr;
-    grid-template-rows: auto 1fr auto;
-    grid-template-areas: 
-        "header header"  
-        "nav content"
-        "footer footer";
-    min-height: 100vh;
+body 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between
 }
 
-nav {
+nav 
+{
     background-color: rgb(8, 13, 85);
     padding: 20px;
     display: flex;
@@ -28,7 +25,8 @@ nav {
     width: 160px;
 }
 
-nav a {
+nav a 
+{
     color: white;
     text-decoration: none;
     padding: 20px;
@@ -36,46 +34,35 @@ nav a {
     font-weight: bold;
 }
 
-nav a:hover {
+nav a:hover 
+{
     background-color: rgb(241, 81, 27);
     border-radius: 5px;
     padding-left: 25px;
     padding-right: 25px;
 }
 
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-nav img {
+nav img 
+{
     margin: 15px;
     height: auto;
     width: 90px;
 }
 
-header {
-    grid-area: header; 
-    background-size: cover;
-    background-position: center;
-    height: 100px;
-    width: 100%; 
+.corp
+{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: 1px solid white;
+    width: 70vw;
+    height: 100vh;
 }
 
-.corp {
-    grid-area: content;
-    padding: 20px;
-    display: flex; 
-    flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 50px;
-}
-
-.image {
+.image 
+{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -83,7 +70,9 @@ header {
     width: 90px;
 }
 
-.texte {
+.texte 
+{
+    float: right;
     background-color: rgba(255, 255, 255, 0.9); 
     border: 1px solid rgba(8, 13, 85, 0.8); 
     padding: 15px; 
@@ -92,7 +81,8 @@ header {
     max-width: 300px; 
 }
 
-footer {
+footer 
+{
     grid-area: footer;
     background-color: rgb(8, 13, 85);
     padding: 20px;
