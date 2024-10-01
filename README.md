@@ -8,4 +8,3 @@ Membre du groupe :
 - DAMIEN BRETTEVILLE https://github.com/dbretteville
 
 Présentation du sujet : C'est un site qui a pour but de de présenter l'entreprise Bouygues Telecom tout en respectznt un cahier des charges qu'on a nous meme suggérer 
-
