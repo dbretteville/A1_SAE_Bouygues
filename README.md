@@ -1,5 +1,5 @@
 Sujet : Bouygues Telecom
-[Lien Github](https://dbretteville.github.io/A1_SAE_Bouygues)
+[Lien Github](https://dbretteville.github.io/A1_SAE_Bouygues)  
 [Lien Gitlab](https://matheob.gitlab.io/A1_SAE_Bouygues/)
 
 Membre du groupe :
