@@ -1,23 +1,18 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:  Helvetica;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body {
-    display: grid;
-    grid-template-columns: 200px 1fr;
-    grid-template-rows: auto 1fr auto;
-    grid-template-areas: 
-        "header header"  
-        "nav content"
-        "footer footer";
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
-nav {
-    grid-area: nav;
+nav 
+{
     background-color: rgb(8, 13, 85);
     padding: 20px;
     display: flex;
@@ -25,7 +20,7 @@ nav {
     gap: 50px;
     position: absolute;
     top: 20px; 
-    left: 20px; 
+    left: 20px;
     width: 160px;
 }
 
@@ -33,27 +28,15 @@ nav a {
     color: white;
     text-decoration: none;
     padding: 20px;
-    transition: background-color 0.3s, color 0.3s;
     font-weight: bold;
 }
 
 nav a:hover {
-    background-color: rgb(241, 81, 27); 
-    border-radius: 5px;
+    background-color: rgb(241, 81, 27);
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 0px;
     padding-left: 25px;
     padding-right: 25px;
-}
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content a {
-    color: white;
-    padding: 10px 25px;
-    text-decoration: none;
-    display: block;
 }
 
 nav img {
@@ -63,69 +46,149 @@ nav img {
 }
 
 header {
-    grid-area: header; 
-    background-image: url('https://www.officeeasy.fr/guides/amplificateur-gsm/include/images/ampgsm123.jpg');
+    background-image: url('Bouygues.pgn.jpg');
     background-size: cover;
     background-position: center;
     height: 700px;
-    width: 100%; 
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative; 
+    position: relative;
 }
 
-.header-texta {
+.header-text {
     color: white;
     padding: 0px;
-    border-radius: 10px;
     position: relative;
     z-index: 2;
-    max-width: 60%;  
-    text-align: left; 
+    max-width: 80%;
+    text-align: left;
     line-height: 0.6;
-    font-size: 4rem;
+    font-size: 3.5rem;
     bottom: 10%;
+    left: 3%;
 }
 
-.header-texta h1 {
-    font-size: 6.5rem;
+.header-text h1 {
+    font-size: 7.5rem;
 }
 
-.content {
-    grid-area: content;
+.case-titre {
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    gap: 105px;
+    margin-bottom: 20px;
+}
+.case-pres{
     padding: 20px;
-    display: flex; 
-    justify-content: flex-start; 
-    gap: 105px; 
+    display: flex;
+    gap: 50px;
+    justify-content: space-around; 
+}
+
+.case-pres2{
+    padding: 20px;
+    display: flex;
+    gap: 50px;
+    justify-content: space-around; 
 }
 
 .case {
-    background-color: rgba(255, 255, 255, 0.9); 
-    border: 1px solid rgba(8, 13, 85, 0.8); 
-    border-radius: 10px; 
-    padding: 15px; 
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
-    flex: 1; 
-    max-width: 300px; 
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(8, 13, 85, 0.8);
+    border-radius: 10px ;
+    padding: 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    flex: 1;
+    max-width: 300px;
+}
+.case-image {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.case-text{
+    padding: 15px;
 }
 
 .case h2 {
-    margin: 0; 
-    font-size: 1.5rem; 
-    color: rgb(8, 13, 85); 
+    margin: 0;
+    font-size: 1.5rem;
+    color: rgb(8, 13, 85);
 }
 
 .case p {
-    margin-top: 10px; 
-    line-height: 1.5; 
-    color: #333; 
+    margin-top: 10px;
+    line-height: 1.5;
+    color: #333;
 }
 
 footer {
-    grid-area: footer;
     background-color: rgb(8, 13, 85);
     padding: 20px;
     text-align: center;
     color: white;
+    margin-top: auto;
+
+}
+
+.plan {
+    float: right;
+    height: 300px;
+    width: 300px;
+    margin-top: 0;
+}
+footer p {
+    margin-bottom: 0;
+}
+.Email{
+    text-decoration: none;
+    color: white;
+}
+
+.Email:hover {
+    color: orange;
+    transition: color 0.3s;
+}
+
+.icon-container {
+    display: flex;
+    gap: 20px; 
+}
+.icon {
+    width: 40px; 
+    height: 40px;
+    fill: white; 
+    transition: fill 0.3s;
+}
+.icon:hover {
+    fill: orange; 
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin : 0 20px;
+    align-items: center;
+    margin-bottom : auto;
+}
+
+.plan{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
