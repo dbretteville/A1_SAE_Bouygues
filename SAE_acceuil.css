@@ -17,24 +17,25 @@ nav
     padding: 20px;
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 70px;
     position: absolute;
-    top: 20px; 
+    top: 80px; 
     left: 20px;
     width: 160px;
 }
 
-nav a {
+nav a 
+{
     color: white;
     text-decoration: none;
     padding: 20px;
+    transition: background-color 0.3s, color 0.3s;
     font-weight: bold;
 }
 
-nav a:hover {
+nav a:hover 
+{
     background-color: rgb(241, 81, 27);
-    transition: background-color 0.3s, color 0.3s;
-    border-radius: 0px;
     padding-left: 25px;
     padding-right: 25px;
 }
@@ -46,7 +47,7 @@ nav img {
 }
 
 header {
-    background-image: url('Bouygues.pgn.jpg');
+    background-image: url('bouygues_fond.jpg');
     background-size: cover;
     background-position: center;
     height: 700px;
@@ -127,68 +128,26 @@ header {
     color: #333;
 }
 
-footer {
-    background-color: rgb(8, 13, 85);
+footer a 
+{
+    color: white;
+    text-decoration: none;
     padding: 20px;
+    transition: background-color 0.3s, color 0.3s;
+    font-weight: bold;
+}
+
+footer a:hover 
+{
+    background-color: rgb(241, 81, 27);
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+footer 
+{
+    background-color: rgb(8, 13, 85);
+    padding: 25px;
     text-align: center;
     color: white;
-    margin-top: auto;
-
-}
-
-.plan {
-    float: right;
-    height: 300px;
-    width: 300px;
-    margin-top: 0;
-}
-footer p {
-    margin-bottom: 0;
-}
-.Email{
-    text-decoration: none;
-    color: white;
-}
-
-.Email:hover {
-    color: orange;
-    transition: color 0.3s;
-}
-
-.icon-container {
-    display: flex;
-    gap: 20px; 
-}
-.icon {
-    width: 40px; 
-    height: 40px;
-    fill: white; 
-    transition: fill 0.3s;
-}
-.icon:hover {
-    fill: orange; 
-}
-
-.container{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    width: 100%;
-    justify-content: space-between;
-
-}
-
-
-.info{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin : 0 20px;
-    align-items: center;
-    margin-bottom : auto;
-}
-
-.plan{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
