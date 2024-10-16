@@ -55,12 +55,12 @@ nav img
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 50px;
-    margin-left: auto;
+    margin-left: 200px;
     margin-right: auto;
     margin-top: 20px;
     margin-bottom: 20px;
     border: 1px solid white;
-    width: 70vw;
+    width: 87vw;
     height: 100vh;
 }
 
@@ -70,7 +70,7 @@ nav img
     margin-bottom: 10px;
 }
 
-.Linkedin, .Gmail, .Facebook, .X, .Maps, .Instagram
+.Linkedin, .Mail, .Earth, .Maps, .Facebook, .X, .Instagram, .Telephone
 {
     margin-top: 20px;
     margin-bottom: 20px;
