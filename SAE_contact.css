@@ -62,14 +62,28 @@ nav img
     border: 1px solid white;
     width: 87vw;
     height: 100vh;
-}
+} 
 
 .corp img
 {
     width: 300px;
     margin-bottom: 10px;
+    opacity:0.5;
+    transition: 1s ease;
 }
-
+    
+.corp img:hover
+{
+    opacity:1;
+    transition: 1s ease;
+}    
+/*
+.corp img
+{
+    width: 300px;
+    margin-bottom: 10px;
+}
+*/
 .Linkedin, .Mail, .Earth, .Maps, .Facebook, .X, .Instagram, .Telephone
 {
     margin-top: 20px;
