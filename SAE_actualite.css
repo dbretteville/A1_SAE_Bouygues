@@ -73,8 +73,8 @@ nav img
     background-color: rgba(189, 189, 189, 0.9); 
     border: 1px solid rgba(8, 13, 85, 0.8); 
     padding: 15px; 
-    max-width: 400px; 
-    max-height: 700px; 
+    max-width: 100%; 
+    max-height: 100%; 
     text-align: center; 
     border-radius: 10px;
 }
@@ -89,10 +89,10 @@ nav img
     align-items: center; 
 }
 
-.Telephone img 
+.Telephone img
 {
     margin-top: 80px;
-    max-width: 100%;
+    max-width: 30%;
     height: auto;
 }   
 
@@ -109,11 +109,11 @@ nav img
 .Box img 
 {
     margin-top: 80px;
-    max-width: 100%;
+    max-width: 30%;
     height: auto;
 }   
 
-.Boutique
+.Forfait
 {
     display: flex;
     flex-direction: column;
@@ -123,10 +123,10 @@ nav img
     align-items: center; 
 }
 
-.Boutique img 
+.Forfait img 
 {
     margin-top: 80px;
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
 }   
 
