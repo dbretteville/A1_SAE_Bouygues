@@ -1,5 +1,4 @@
-
-*
+* 
 {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -16,16 +15,14 @@ body
 
 nav 
 {
-    position: sticky;
-    margin-top: 20px;
-    margin-bottom: auto;
-    top: 20px;
-    left: 20px;
     background-color: rgb(8, 13, 85);
     padding: 20px;
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 70px;
+    position: absolute;
+    top: 80px; 
+    left: 20px;
     width: 160px;
 }
 
@@ -41,7 +38,6 @@ nav a
 nav a:hover 
 {
     background-color: rgb(241, 81, 27);
-    border-radius: 5px;
     padding-left: 25px;
     padding-right: 25px;
 }
@@ -53,64 +49,107 @@ nav img
     width: 90px;
 }
 
-footer 
+.corp
 {
-    background-color: rgb(8, 13, 85);
-    padding: 20px;  
-    text-align: center;
-    color: white;
-}
-
-.container
-{
-    display: flex;
-}
-
-.contenu
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    gap: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border: 1px solid red;
-    width: 80vw;
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    margin: 20px auto;
+    border: 1px solid white;
+    width: 70vw;
     height: 100vh;
 }
 
-.boite-contenu
+.image 
 {
-    width: 90%;
-    height: 45%;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    border: 1px solid blue;
-    margin-left: auto;
-    margin-right: auto;
-    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 400px; 
 }
 
-.texte
+.texte 
 {
-    margin-top: auto;
-    margin-bottom: auto;
-    text-align: center;
-    width: 70%;
-    height: 95%;
-    border: 1px solid green;
+    background-color: rgba(189, 189, 189, 0.9); 
+    border: 1px solid rgba(8, 13, 85, 0.8); 
+    padding: 15px; 
+    max-width: 400px; 
+    max-height: 700px; 
+    text-align: center; 
+    border-radius: 10px;
 }
 
-.image-contenu
+.Telephone
 {
-    margin-top: auto;
-    margin-bottom: auto;
-    text-align: center;
-    width: 30%;
-    height: 95%;
-    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    width: 20vw;
+    height: 100vh;
+    align-items: center; 
 }
 
+.Telephone img 
+{
+    margin-top: 80px;
+    max-width: 100%;
+    height: auto;
+}   
+
+.Box
+{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    width: 20vw;
+    height: 100vh;
+    align-items: center; 
+}
+
+.Box img 
+{
+    margin-top: 80px;
+    max-width: 100%;
+    height: auto;
+}   
+
+.Boutique
+{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    width: 20vw;
+    height: 100vh;
+    align-items: center; 
+}
+
+.Boutique img 
+{
+    margin-top: 80px;
+    max-width: 100%;
+    height: auto;
+}   
+
+footer a 
+{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    transition: background-color 0.3s, color 0.3s;
+    font-weight: bold;
+}
+
+footer a:hover 
+{
+    background-color: rgb(241, 81, 27);
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+footer 
+{
+    background-color: rgb(8, 13, 85);
+    padding: 25px;
+    text-align: center;
+    color: white;
+}
