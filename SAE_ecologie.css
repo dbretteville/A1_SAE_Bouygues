@@ -1,5 +1,5 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,17 +10,15 @@ body {
     justify-content: space-between;
 }
 
-nav {
-    position: sticky;
-    margin-top: 20px;
-    margin-bottom: auto;
-    top: 20px;
-    left: 20px;
+nav{
     background-color: rgb(8, 13, 85);
     padding: 20px;
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 70px;
+    position: absolute;
+    top: 80px; 
+    left: 20px;
     width: 160px;
 }
 nav a {
@@ -41,12 +39,7 @@ nav img {
     height: auto;
     width: 90px;
 }
-footer {
-    background-color: rgb(8, 13, 85);
-    padding: 20px;  
-    text-align: center;
-    color: white;
-}
+
 .container{
     display: flex;
 }
@@ -59,7 +52,6 @@ footer {
     margin-right: auto;
     margin-top: 10px;
     margin-bottom: 10px;
-    border: 1px solid red;
     width: 80vw;
     height: 100vh;
 }
@@ -68,26 +60,85 @@ footer {
     height: 45%;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    border: 1px solid blue;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px rgb(172, 171, 171);
+    background-color: rgb(250, 250, 250);
     margin-left: auto;
     margin-right: auto;
     gap: 10px;
 }
-.texte{
-    margin-top: auto;
-    margin-bottom: auto;
-    text-align: center;
-    width: 70%;
-    height: 95%;
-    border: 1px solid green;
-} 
+
 .image-contenu{
     margin-top: auto;
     margin-bottom: auto;
     text-align: center;
-    width: 30%;
+    width: 45%;
     height: 95%;
-    border: 1px solid green;
+}
+.image-contenu>img{
+    width: 100%;
+    height: 100%;
+}
+.texte1{
+    padding: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 100%;
+    height: 95%;
+}
+.texte2{
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    width: 55%;
+    height: 95%;
+}
+.texte1>p{
+    font-size: 180%;
+}
+.texte2>p{
+    font-size: 160%;
+}
+h1{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 3em;
+}
+.texte1>h2{
+    text-align: left;
+
+}
+.texte2>h2{
+    text-align: left;
 }
 
+
+
+
+
+
+footer a 
+{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    transition: background-color 0.3s, color 0.3s;
+    font-weight: bold;
+}
+
+footer a:hover 
+{
+    background-color: rgb(241, 81, 27);
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+footer 
+{
+    background-color: rgb(8, 13, 85);
+    padding: 25px;
+    text-align: center;
+    color: white;
+}

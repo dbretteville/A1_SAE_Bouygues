@@ -1,3 +1,4 @@
+
 * {
     font-family:  Helvetica;
     margin: 0;
@@ -9,6 +10,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color: rgb(248, 248, 255);
 }
 
 nav 
@@ -18,10 +20,11 @@ nav
     display: flex;
     flex-direction: column;
     gap: 70px;
-    position: absolute;
+    position: fixed ;
     top: 80px; 
     left: 20px;
     width: 160px;
+
 }
 
 nav a 
@@ -47,7 +50,7 @@ nav img {
 }
 
 header {
-    background-image: url('Image/bouygues_fond.jpg');
+    background-image: url('Image/Bouygues_fond.jpg');
     background-size: cover;
     background-position: center;
     height: 700px;
@@ -60,40 +63,60 @@ header {
 
 .header-text {
     color: white;
-    padding: 0px;
+    padding: 35px;
+    border-radius: 40px;
     position: relative;
     z-index: 2;
     max-width: 80%;
     text-align: left;
-    line-height: 0.6;
+    line-height: 0.65;
     font-size: 3.5rem;
     bottom: 10%;
     left: 3%;
+    background-color: rgba(51, 51, 51, 0.6) ;
+
 }
 
 .header-text h1 {
     font-size: 7.5rem;
 }
-
-.case-titre {
-    padding: 40px;
-    display: flex;
-    justify-content: space-around;
-    gap: 105px;
-    margin-bottom: 20px;
+main {
+    background-color: white;
 }
+
+
+
+.pres {
+    text-align: center;
+    max-width: 850px;
+    margin: 0 auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.3;
+    padding-bottom: 30px;
+}
+
+.pres h2{
+    color: rgba(8, 13, 85, 0.8);
+    padding-top : 30px;
+    padding-bottom: 15px;
+}
+
 .case-pres{
     padding: 20px;
     display: flex;
     gap: 50px;
-    justify-content: space-around; 
+    justify-content: space-evenly;
+    text-decoration: none; 
 }
 
 .case-pres2{
     padding: 20px;
     display: flex;
     gap: 50px;
-    justify-content: space-around; 
+    justify-content: space-evenly; 
+    text-decoration: none;
 }
 
 .case {
@@ -104,28 +127,33 @@ header {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     flex: 1;
     max-width: 300px;
+    text-decoration: none;
 }
 .case-image {
     height: 250px;
     width: 100%;
     object-fit: cover;
     border-radius: 10px 10px 0 0;
+    text-decoration: none;
 }
 
 .case-text{
     padding: 15px;
+    text-decoration: none;
 }
 
 .case h2 {
     margin: 0;
     font-size: 1.5rem;
     color: rgb(8, 13, 85);
+    text-decoration: none;
 }
 
 .case p {
     margin-top: 10px;
     line-height: 1.5;
     color: #333;
+    text-decoration: none;
 }
 
 footer a 
@@ -150,4 +178,31 @@ footer
     padding: 25px;
     text-align: center;
     color: white;
+}
+
+.case:hover {
+    transform: scale(1.05);
+    box-shadow: 0 3px rgba(0, 0, 0, 0.3);
+}
+
+.case-princ {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid rgba(8, 13, 85, 0.8);
+    border-radius: 10px ;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    flex: 1;
+    max-width: 300px;
+}
+
+.case-lien {
+    text-decoration: none;
+}
+
+.plan2 {
+    height: 300px;
+    width: 300px;
+    margin-left: auto;
+    display: block;
+    
 }
