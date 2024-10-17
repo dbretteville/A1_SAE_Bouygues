@@ -41,6 +41,7 @@ Vérification W3C :
 
 Auteur : Bonet Mathéo   
 Vérification W3C :
+![image](Image/W3C_Ecologie.png)
 
 ### Actualité
 
