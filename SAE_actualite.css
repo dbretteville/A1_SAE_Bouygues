@@ -1,6 +1,6 @@
 * 
 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,6 +11,17 @@ body
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: rgb(224, 224, 225);
+}
+header{
+    background-color:rgb(8, 13, 85);
+}
+
+
+header h1 {
+    text-align: center;
+    color: white;
+    
 }
 
 nav 
@@ -20,7 +31,7 @@ nav
     display: flex;
     flex-direction: column;
     gap: 70px;
-    position: absolute;
+    position: fixed;
     top: 80px; 
     left: 20px;
     width: 160px;
@@ -55,7 +66,7 @@ nav img
     flex-direction: row; 
     justify-content: space-between; 
     margin: 20px auto;
-    border: 1px solid white;
+    border: 1px solid rgb(224, 224, 225);
     width: 70vw;
     height: 100vh;
 }
@@ -70,8 +81,8 @@ nav img
 
 .texte 
 {
-    background-color: rgba(189, 189, 189, 0.9); 
-    border: 1px solid rgba(8, 13, 85, 0.8); 
+    background-color: white;
+    border: 1px solid rgba(255, 255, 255); 
     padding: 15px; 
     max-width: 100%; 
     max-height: 100%; 
@@ -83,7 +94,7 @@ nav img
 {
     display: flex;
     flex-direction: column;
-    border: 1px solid white;
+    border: 1px solid rgb(224, 224, 225);
     width: 20vw;
     height: 100vh;
     align-items: center; 
@@ -100,7 +111,7 @@ nav img
 {
     display: flex;
     flex-direction: column;
-    border: 1px solid white;
+    border: 1px solid rgb(224, 224, 225);
     width: 20vw;
     height: 100vh;
     align-items: center; 
@@ -117,18 +128,78 @@ nav img
 {
     display: flex;
     flex-direction: column;
-    border: 1px solid white;
+    border: 1px solid rgb(224, 224, 225);
     width: 20vw;
     height: 100vh;
     align-items: center; 
 }
 
-.Forfait img 
-{
+.container {
+    background-color: rgb(224, 224, 225);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 300px;
+    
     margin-top: 80px;
-    max-width: 50%;
+    max-width: 100%;
     height: auto;
-}   
+}
+
+h1 {
+    font-size: 3rem;
+    color: #123B59;
+}
+
+.badge-5g {
+    background-color: #123B59;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 0.9rem;
+    color: #666666;
+    margin: 10px 0 20px;
+}
+
+.price-section {
+    margin: 20px 0;
+}
+
+.savings {
+    background-color: #00A0A0;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 2rem;
+    color: #123B59;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #999999;
+}
+
+.old-price sup {
+    font-size: 0.6rem;
+}
+
+.new-price {
+    color: #00A0A0;
+}
+
+.new-price sup {
+    font-size: 0.6rem;
+}
+ 
 
 footer a 
 {
