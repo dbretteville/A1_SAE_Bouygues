@@ -32,7 +32,9 @@ Vérification W3C :
 ### Economie
 
 Auteur : Bretteville Damien  
-Vérification W3C :<img width="977" alt="image" src="https://github.com/user-attachments/assets/54ec727f-1462-43b9-aa10-81e57314c8a5">
+Vérification W3C :
+<img width="767" alt="image" src="https://github.com/user-attachments/assets/2ff8a9c0-7cab-4620-bdf6-f585aa4885ee">
+
 
 
 ### Ecologie
