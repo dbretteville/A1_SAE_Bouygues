@@ -9,14 +9,14 @@ body {
     flex-direction: column;
     justify-content: space-between;
 }
-
-nav{
+nav 
+{
     background-color: rgb(8, 13, 85);
     padding: 20px;
     display: flex;
     flex-direction: column;
     gap: 70px;
-    position: absolute;
+    position: fixed;
     top: 80px; 
     left: 20px;
     width: 160px;
@@ -42,11 +42,13 @@ nav img {
 
 .container{
     display: flex;
+    margin-bottom: 420px;
 }
 .contenu{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    flex-shrink: 0;
     gap: 10px;
     margin-left: auto;
     margin-right: auto;
@@ -57,7 +59,7 @@ nav img {
 }
 .boite-contenu{
     width: 90%;
-    height: 45%;
+    min-height: 45%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -68,8 +70,8 @@ nav img {
     margin-left: auto;
     margin-right: auto;
     gap: 10px;
+    padding: 10px;
 }
-
 .image-contenu{
     margin-top: auto;
     margin-bottom: auto;
@@ -82,36 +84,46 @@ nav img {
     height: 100%;
 }
 .texte1{
-    padding: 50px;
+    padding: 20px;
     margin-top: auto;
     margin-bottom: auto;
     width: 100%;
     height: 95%;
+    font-size: 120%;
 }
 .texte2{
+    padding: 20px;
     margin-top: auto;
     margin-bottom: auto;
-    text-align: center;
+    text-align: left;
     width: 55%;
     height: 95%;
+    font-size: 130%;
 }
-.texte1>p{
-    font-size: 180%;
-}
-.texte2>p{
-    font-size: 160%;
-}
-h1{
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 3em;
-}
-.texte1>h2{
+.texte3{
+    padding: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
     text-align: left;
-
+    width: 100%;
+    height: 95%;
+    font-size: 105%;
 }
-.texte2>h2{
-    text-align: left;
+.partie-principale{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 20px;
+}
+.boite-contenu h2{
+    font-size: 30px;
+}
+.partie-gauche{
+    width: 40%;
+}
+.partie-droite{
+    width: 40%;
 }
 
 
@@ -119,6 +131,13 @@ h1{
 
 
 
+footer 
+{
+    background-color: rgb(8, 13, 85);
+    padding: 25px;
+    text-align: center;
+    color: white;
+}
 footer a 
 {
     color: white;
@@ -127,18 +146,22 @@ footer a
     transition: background-color 0.3s, color 0.3s;
     font-weight: bold;
 }
-
 footer a:hover 
 {
     background-color: rgb(241, 81, 27);
     padding-left: 25px;
     padding-right: 25px;
 }
-
-footer 
-{
+header{
+    margin-bottom: 470px;
+}
+header>h1{
+    width: 100vw;
     background-color: rgb(8, 13, 85);
-    padding: 25px;
+    font-size: 3em;
+    position: absolute;
+    left: 0;
+    top: 0;
     text-align: center;
     color: white;
 }
