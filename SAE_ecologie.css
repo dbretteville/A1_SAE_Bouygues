@@ -7,8 +7,9 @@
 body {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    min-height: 100vh; /* Ensure the body fills the viewport */
 }
+
 nav 
 {
     background-color: rgb(8, 13, 85);
@@ -40,24 +41,20 @@ nav img {
     width: 90px;
 }
 
-.container{
-    display: flex;
-    margin-bottom: 420px;
+.container {
+    flex-grow: 1; /* Make the container take up all the available space */
+    margin-top: 20px; /* Space between header and content */
 }
-.contenu{
+.contenu {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    flex-shrink: 0;
     gap: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
     width: 80vw;
-    height: 100vh;
+    margin: 20px auto; /* Center the content and add space around */
 }
-.boite-contenu{
+
+.boite-contenu {
     width: 90%;
     min-height: 45%;
     display: flex;
@@ -67,8 +64,7 @@ nav img {
     border-radius: 10px;
     box-shadow: 10px 5px 5px rgb(172, 171, 171);
     background-color: rgb(250, 250, 250);
-    margin-left: auto;
-    margin-right: auto;
+    margin: 20px auto; /* Space between content boxes */
     gap: 10px;
     padding: 10px;
 }
@@ -131,12 +127,14 @@ nav img {
 
 
 
-footer 
-{
+
+footer {
+    width: 100%;
     background-color: rgb(8, 13, 85);
-    padding: 25px;
     text-align: center;
     color: white;
+    padding: 20px;
+    margin-top: 20px; /* Space between content and footer */
 }
 footer a 
 {
@@ -152,16 +150,13 @@ footer a:hover
     padding-left: 25px;
     padding-right: 25px;
 }
-header{
-    margin-bottom: 470px;
-}
-header>h1{
-    width: 100vw;
+header {
+    width: 100%;
     background-color: rgb(8, 13, 85);
-    font-size: 3em;
-    position: absolute;
-    left: 0;
-    top: 0;
+    height: 70px;
+}
+header > h1 {
+    font-size: 2.5em;
     text-align: center;
     color: white;
 }
