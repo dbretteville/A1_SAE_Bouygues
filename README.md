@@ -99,12 +99,3 @@ Validation EcoIndex :
 ## Contributeurs
 
 ![capture d'écran de sur la contribution des membres du projet](doc/livrable2_contributors.png)
-
-Validation ecoIndex du site 
-
-Validation : [Détail ici](https://www.ecoindex.fr/resultat/?id=6dfe9233-d151-4565-9dbb-9587e29fdcda)
-
-
-![image](https://github.com/user-attachments/assets/40a0cccf-4948-44e5-bd72-121ff34edce6)
-
-
