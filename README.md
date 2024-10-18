@@ -1,14 +1,19 @@
 ### Sujet : Bouygues Telecom  
-[Lien Github](https://dbretteville.github.io/A1_SAE_Bouygues)  
-[Lien Gitlab](https://matheob.gitlab.io/A1_SAE_Bouygues/)  
-[Lien BitBucket](https://dbretteville.bitbucket.io)
+[Lien du Github Pages](https://dbretteville.github.io/A1_SAE_Bouygues)   
+[Lien du repository Github](/home/matheo/Images/Ecoindex_ecologie.png)  
+
+[Lien Gitlab Pages](https://matheob.gitlab.io/A1_SAE_Bouygues/)  
+[Lien du repository Gitlab](/home/matheo/Images/Ecoindex_ecologie.png)
+
+[Lien BitBucket Pages](https://dbretteville.bitbucket.io)  
+[Lien du repository Bitbucket](https://bitbucket.org/dbretteville/dbretteville.bitbucket.io/src/main/)
 
 ### Membre du groupe :
-- VALENTIN BEURET - Email : valentin.beuret@edu.univ-fcomte.fr
-- GAUTIER BELEY - Email : gautier.beley@edu.univ-fcomte.fr
-- MATHEO BONNET - Email : matheo.bonnet@edu.univ-fcomte.fr
-- SIDI MOHAMED HADI BENHADJEBA - Email : sidi_mohamed_hadi.benhadjeba@edu.univ-fcomte.fr
-- DAMIEN BRETTEVILLE - Email : damien.bretteville@edu.univ-fcomte.fr
+- [VALENTIN BEURET (référent)](mailto:valentin.beuret@edu.univ-fcomte.fr)
+- [GAUTIER BELEY](mailto:gautier.beley@edu.univ-fcomte.fr)
+- [MATHEO BONNET](mailto:matheo.bonnet@edu.univ-fcomte.fr)
+- [SIDI MOHAMED HADI BENHADJEBA](mailto:sidi_mohamed_hadi.benhadjeba@edu.univ-fcomte.fr)
+- [DAMIEN BRETTEVILLE](mailto:damien.bretteville@edu.univ-fcomte.fr)
 
 ### Présentation du sujet :  
 C'est un site qui a pour but de de présenter l'entreprise Bouygues Telecom tout en respectent un cahier des charges qu'on a nous même suggérer.
@@ -97,11 +102,13 @@ Validation EcoIndex :  [Détail ici](https://www.ecoindex.fr/resultat/?id=9cfaa3
 - Bonnet Mathéo 
   - "Template" de page (Navbar/Footer)
   - Page Ecologie 
+  - Gitlab Pages
 - Beuret Valentin
   - Page histoire
   - Page Contact
 - Bretteville Damien
   - Page Economie
+  - Gituhb et Bitbucket Pages
 - Benhadjeba Sidi Mohamed
   - Page Actualité
 
