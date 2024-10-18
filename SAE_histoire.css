@@ -14,6 +14,20 @@ body
     background-color: rgba(255, 255, 255, 0.9);
 }
 
+header
+{
+    background-color:rgb(8, 13, 85);
+    width: 100%;
+    height: 75px;
+}
+
+header h1 
+{
+    padding: 20px; 
+    text-align: center;
+    color: white;
+}
+
 nav 
 {
     background-color: rgb(8, 13, 85);
@@ -93,7 +107,7 @@ nav img
 
 .createur img 
 {
-    margin-top: 80px;
+    margin-top: 20px;
     max-width: 100%;
     height: auto;
     /*border-radius: 10px;*/
@@ -144,7 +158,7 @@ nav img
 
 .evolution img
 {
-    margin-top: 25px;
+    margin-top: 5px;
     max-width: 100%;
     height: auto;
     /*border-radius: 10px;*/
