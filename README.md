@@ -59,7 +59,8 @@ Validation EcoIndex : [Détail ici](https://www.ecoindex.fr/resultat/?id=7427f66
 ### Actualité
 
 Auteur : Benhadjeba Sidi Mohamed  
-Vérification W3C : [Détail ici]()  
+Vérification W3C : [Détail ici](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdbretteville.github.io%2FA1_SAE_Bouygues%2FSAE_actualite.html)
+![Capture d’écran W3C](https://github.com/user-attachments/assets/7aeee188-e987-4e46-8818-5afae86715b7)
 Validation EcoIndex :  [Détail ici](https://www.ecoindex.fr/resultat/?id=31872c25-c0c5-4d92-b10e-700db4a98618)
 ![Capture d’écran Ecoindex](https://github.com/user-attachments/assets/c5009d62-5d8c-4724-929e-5e9aedca6219)
 
