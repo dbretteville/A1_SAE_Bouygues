@@ -36,7 +36,8 @@ Validation EcoIndex : [Détail ici](https://www.ecoindex.fr/resultat/?id=6dfe923
 Auteur : Beuret Valentin  
 Vérification W3C : [Détail ici](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdbretteville.github.io%2FA1_SAE_Bouygues%2FSAE_histoire.html)
 ![Capture d'ecran W3C](https://github.com/user-attachments/assets/52ccfd31-dfb0-49d7-89da-c62d2a124f1f)
-Validation EcoIndex : [Détail ici]()
+Validation EcoIndex : [Détail ici](https://www.ecoindex.fr/resultat/?id=4f58eb27-7ce8-4d42-85e5-9d8c284b6713)
+![Capture d’écran Ecoindex](https://github.com/user-attachments/assets/46d39b64-2931-4eff-8796-19b281e8dba5)
 
 
 ### Economie
