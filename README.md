@@ -21,18 +21,18 @@ Pour la création de ce site web, il y a plusieurs sites qu'ils nous ont inspir�
 ### Page d'accueil 
 
 Auteur : Beley Gautier  
-Vérification W3C :
+Vérification W3C : [Détail ici](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdbretteville.github.io%2FA1_SAE_Bouygues%2Findex.html)
 ![image](https://github.com/user-attachments/assets/11c3cb04-9602-4c91-9774-a2e79fecd3e6)
 
 ### Histoire
 
 Auteur : Beuret Valentin  
-Vérification W3C :
+Vérification W3C : [Détail ici]()
 
 ### Economie
 
 Auteur : Bretteville Damien  
-Vérification W3C :
+Vérification W3C : [Détail ici]()
 ![imge](https://github.com/user-attachments/assets/2ff8a9c0-7cab-4620-bdf6-f585aa4885ee)
 
 
@@ -40,18 +40,18 @@ Vérification W3C :
 ### Ecologie
 
 Auteur : Bonet Mathéo   
-Vérification W3C :
+Vérification W3C : [Détail ici]()
 ![image](Image/W3C_Ecologie.png)
 
 ### Actualité
 
 Auteur : Benhadjeba Sidi Mohamed  
-Vérification W3C :
+Vérification W3C : [Détail ici]()
 
 ### Contact
 
 Auteur : Beuret Valentin  
-Vérification W3C :
+Vérification W3C : [Détail ici]()
 
 ### Répartition du travail
 
@@ -93,3 +93,11 @@ Vérification W3C :
 ## Contributeurs
 
 ![capture d'écran de sur la contribution des membres du projet](doc/livrable2_contributors.png)
+
+### Validation ecoIndex du site 
+
+Validation : [Détail ici]()
+
+
+
+
