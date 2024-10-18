@@ -98,4 +98,5 @@ Validation EcoIndex :
 
 ## Contributeurs
 
-![capture d'écran de sur la contribution des membres du projet](doc/livrable2_contributors.png)
+![Image des Contributeurs tout au lng du projet](https://github.com/user-attachments/assets/dccac26a-a519-4531-9c39-ffec40a5aa59)
+
