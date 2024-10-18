@@ -42,9 +42,9 @@ Validation EcoIndex : [Détail ici]()
 ### Economie
 
 Auteur : Bretteville Damien  
-Vérification W3C : [Détail ici]()
+Vérification W3C : [Détail ici](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdbretteville.github.io%2FA1_SAE_Bouygues%2FSAE_economie.html)
 ![image](https://github.com/user-attachments/assets/2ff8a9c0-7cab-4620-bdf6-f585aa4885ee)
-Validation EcoIndex :  
+Validation EcoIndex :  [Détail ici](https://www.ecoindex.fr/resultat/?id=82c6efac-6364-4c3d-a269-092aa0ed1fad)  
 ![image](https://github.com/user-attachments/assets/cb258269-afd2-4815-b820-d3f8054380fe)
 
 
