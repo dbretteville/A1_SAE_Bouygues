@@ -114,5 +114,5 @@ Validation EcoIndex :  [Détail ici](https://www.ecoindex.fr/resultat/?id=9cfaa3
 
 ## Contributeurs
 
-![Image des Contributeurs tout au lng du projet](https://github.com/user-attachments/assets/dccac26a-a519-4531-9c39-ffec40a5aa59)
+![Image des Contributeurs tout au lng du projet](Image/contributors.png)
 
