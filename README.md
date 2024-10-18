@@ -3,7 +3,7 @@
 [Lien du repository Github](/home/matheo/Images/Ecoindex_ecologie.png)  
 
 [Lien Gitlab Pages](https://matheob.gitlab.io/A1_SAE_Bouygues/)  
-[Lien du repository Gitlab](/home/matheo/Images/Ecoindex_ecologie.png)
+[Lien du repository Gitlab]([/home/matheo/Images/Ecoindex_ecologie.png](https://gitlab.com/MatheoB/A1_SAE_Bouygues))
 
 [Lien BitBucket Pages](https://dbretteville.bitbucket.io)  
 [Lien du repository Bitbucket](https://bitbucket.org/dbretteville/dbretteville.bitbucket.io/src/main/)
