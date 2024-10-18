@@ -85,6 +85,7 @@ Vérification W3C : [Détail ici]()
   - Page Ecologie 
 - Beuret Valentin
   - Page histoire
+  - Page Contact
 - Bretteville Damien
   - Page Economie
 - Benhadjeba Sidi Mohamed
