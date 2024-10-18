@@ -56,7 +56,8 @@ Validation EcoIndex :
 
 Auteur : Beuret Valentin  
 Vérification W3C : [Détail ici]() 
-/home/vbeuret2/Bureau/Capture d'ecran w3c.png (https://validator.w3.org/nu/?doc=https%3A%2F%2Fdbretteville.github.io%2FA1_SAE_Bouygues%2FSAE_contact.html)
+(![Capture d'ecran w3c](https://github.com/user-attachments/assets/8fccef1c-3c21-4797-b424-e3183eab6adc)
+https://validator.w3.org/nu/?doc=https%3A%2F%2Fdbretteville.github.io%2FA1_SAE_Bouygues%2FSAE_contact.html)
 Validation EcoIndex :  
 
 ### Répartition du travail
