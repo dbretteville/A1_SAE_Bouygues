@@ -29,14 +29,17 @@ Validation EcoIndex : [Détail ici](https://www.ecoindex.fr/resultat/?id=6dfe923
 ### Histoire
 
 Auteur : Beuret Valentin  
-Vérification W3C : [Détail ici]()
+Vérification W3C : [Détail ici](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdbretteville.github.io%2FA1_SAE_Bouygues%2FSAE_histoire.html)
+![Capture d'ecran W3C](https://github.com/user-attachments/assets/52ccfd31-dfb0-49d7-89da-c62d2a124f1f)
+Validation EcoIndex : [Détail ici]()
+
 
 ### Economie
 
 Auteur : Bretteville Damien  
 Vérification W3C : [Détail ici]()
 ![image](https://github.com/user-attachments/assets/2ff8a9c0-7cab-4620-bdf6-f585aa4885ee)
-Validation EcoIndex :  
+Validation EcoIndex :  [Détail ici]()
 
 
 ### Ecologie
@@ -44,14 +47,14 @@ Validation EcoIndex :
 Auteur : Bonet Mathéo   
 Vérification W3C : [Détail ici](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdbretteville.github.io%2FA1_SAE_Bouygues%2Findex.html)
 ![image](Image/W3C_Ecologie.png)
-Validation EcoIndex :  
+Validation EcoIndex : [Détail ici]() 
 ![image](Image/Ecoindex_ecologie.png)
 
 ### Actualité
 
 Auteur : Benhadjeba Sidi Mohamed  
 Vérification W3C : [Détail ici]()  
-Validation EcoIndex :  
+Validation EcoIndex :  [Détail ici]()
 
 ### Contact
 
