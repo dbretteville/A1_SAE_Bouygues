@@ -35,16 +35,17 @@ Vérification W3C : [Détail ici]()
 
 Auteur : Bretteville Damien  
 Vérification W3C : [Détail ici]()
-![imge](https://github.com/user-attachments/assets/2ff8a9c0-7cab-4620-bdf6-f585aa4885ee)
+![image](https://github.com/user-attachments/assets/2ff8a9c0-7cab-4620-bdf6-f585aa4885ee)
 Validation EcoIndex :  
 
 
 ### Ecologie
 
 Auteur : Bonet Mathéo   
-Vérification W3C : [Détail ici]()
+Vérification W3C : [Détail ici](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdbretteville.github.io%2FA1_SAE_Bouygues%2Findex.html)
 ![image](Image/W3C_Ecologie.png)
 Validation EcoIndex :  
+![image](Image/Ecoindex_ecologie.png)
 
 ### Actualité
 
