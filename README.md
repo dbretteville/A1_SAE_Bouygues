@@ -49,13 +49,13 @@ Validation EcoIndex :
 ### Actualité
 
 Auteur : Benhadjeba Sidi Mohamed  
-Vérification W3C : [Détail ici]()
+Vérification W3C : [Détail ici]()  
 Validation EcoIndex :  
 
 ### Contact
 
 Auteur : Beuret Valentin  
-Vérification W3C : [Détail ici]()
+Vérification W3C : [Détail ici]()  
 Validation EcoIndex :  
 
 ### Répartition du travail
