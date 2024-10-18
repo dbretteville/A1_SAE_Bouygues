@@ -48,8 +48,6 @@ Vérification W3C : [Détail ici](https://validator.w3.org/nu/?doc=https%3A%2F%2
 Validation EcoIndex :  [Détail ici](https://www.ecoindex.fr/resultat/?id=82c6efac-6364-4c3d-a269-092aa0ed1fad)  
 ![image](https://github.com/user-attachments/assets/cb258269-afd2-4815-b820-d3f8054380fe)
 
-
-
 ### Ecologie
 
 Auteur : Bonet Mathéo   
@@ -62,7 +60,8 @@ Validation EcoIndex : [Détail ici](https://www.ecoindex.fr/resultat/?id=7427f66
 
 Auteur : Benhadjeba Sidi Mohamed  
 Vérification W3C : [Détail ici]()  
-Validation EcoIndex :  [Détail ici]()
+Validation EcoIndex :  [Détail ici](https://www.ecoindex.fr/resultat/?id=31872c25-c0c5-4d92-b10e-700db4a98618)
+![Capture d’écran Ecoindex](https://github.com/user-attachments/assets/c5009d62-5d8c-4724-929e-5e9aedca6219)
 
 ### Contact
 
