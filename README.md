@@ -96,8 +96,9 @@ Vérification W3C : [Détail ici]()
 
 ### Validation ecoIndex du site 
 
-Validation : [Détail ici](https://cdn.discordapp.com/attachments/1033349040466837525/1296720509760704532/ecoIndex.png?ex=67135095&is=6711ff15&hm=259c4e28255cd3ccc17d8e0d038a7afc7ef14f998ed03b8e18cf6a919f80a6a1&)
+Validation : [Détail ici](https://www.ecoindex.fr/resultat/?id=6dfe9233-d151-4565-9dbb-9587e29fdcda)
 
 
+![image](https://github.com/user-attachments/assets/40a0cccf-4948-44e5-bd72-121ff34edce6)
 
 
