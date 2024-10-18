@@ -1,7 +1,7 @@
 ### Sujet : Bouygues Telecom  
 [Lien Github](https://dbretteville.github.io/A1_SAE_Bouygues)  
 [Lien Gitlab](https://matheob.gitlab.io/A1_SAE_Bouygues/)  
-[Lien BitBucket](https://GautierB.bitbucket.org/A1_SAE_Bouygues)
+[Lien BitBucket](https://a1_sae_bouygues-admin@bitbucket.org/a1_sae_bouygues_telecom/a1_sae_bouygues.git)
 
 ### Membre du groupe :
 - VALENTIN BEURET - Email : valentin.beuret@edu.univ-fcomte.fr
@@ -96,7 +96,7 @@ Vérification W3C : [Détail ici]()
 
 ### Validation ecoIndex du site 
 
-Validation : [Détail ici]()
+Validation : [Détail ici](https://cdn.discordapp.com/attachments/1033349040466837525/1296720509760704532/ecoIndex.png?ex=67135095&is=6711ff15&hm=259c4e28255cd3ccc17d8e0d038a7afc7ef14f998ed03b8e18cf6a919f80a6a1&)
 
 
 
