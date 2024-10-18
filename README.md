@@ -1,7 +1,7 @@
 ### Sujet : Bouygues Telecom  
 [Lien Github](https://dbretteville.github.io/A1_SAE_Bouygues)  
 [Lien Gitlab](https://matheob.gitlab.io/A1_SAE_Bouygues/)  
-[Lien BitBucket](https://bitbucket.org/GautierB/a1_sae_bouygues_telecom)
+[Lien BitBucket](https://dbretteville.bitbucket.io)
 
 ### Membre du groupe :
 - VALENTIN BEURET - Email : valentin.beuret@edu.univ-fcomte.fr
@@ -49,7 +49,7 @@ Validation EcoIndex :
 Auteur : Bonet Mathéo   
 Vérification W3C : [Détail ici](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdbretteville.github.io%2FA1_SAE_Bouygues%2Findex.html)
 ![image](Image/W3C_Ecologie.png)
-Validation EcoIndex : [Détail ici]() 
+Validation EcoIndex : [Détail ici](https://www.ecoindex.fr/resultat/?id=7427f66e-9878-416a-8396-8c9583986e9d) 
 ![image](Image/Ecoindex_ecologie.png)
 
 ### Actualité
